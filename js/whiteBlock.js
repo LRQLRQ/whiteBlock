@@ -53,7 +53,7 @@ window.onload =function(){
                         //关闭定时器
                         clearInterval(obj.timer);
                         //显示开始游戏
-                        go.children[0].innerHTML = '游戏结束';
+                        go.children[0].innerHTML = 'over~ 再来！';
                         go.style.display = "block";
                     }
                 }
@@ -81,7 +81,7 @@ window.onload =function(){
                     //关闭定时器
                     clearInterval(obj.timer);
                     //显示开始游戏
-                    go.children[0].innerHTML = '游戏结束';
+                    go.children[0].innerHTML = 'over~ 再来!';
                     go.style.display = "block";
                 }
                 //盒子加速
